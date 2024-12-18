@@ -38,6 +38,12 @@
    WEATHER_API_KEY=your_api_key_here
    ```
 
+   ## How to Get Your Weather API Key
+
+1. Sign up for an account on a weather API provider's website (e.g., https://www.weatherapi.com/).
+2. Follow the instructions to create an API key.
+3. Copy the API key and add it to the `.env` file as shown in step 3 of "How to Run the Server".
+
 4. Start the server:
    ```
    node endpoints.js
