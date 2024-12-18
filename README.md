@@ -20,6 +20,36 @@
 - **Description:** Returns a random fact in JSON format.
 - **Usage:** Send a GET request to `/fact`.
 
+### 4. Random Commit Message
+- **URL:** `/random-commit-message`
+- **Method:** GET
+- **Description:** Returns a random commit message.
+- **Usage:** Send a GET request to `/random-commit-message`.
+
+### 5. Random Lorem Ipsum
+- **URL:** `/random-lorem-ipsum`
+- **Method:** GET
+- **Description:** Returns a random Lorem Ipsum text.
+- **Usage:** Send a GET request to `/random-lorem-ipsum`.
+
+### 6. Random User
+- **URL:** `/random-user`
+- **Method:** GET
+- **Description:** Returns a random user.
+- **Usage:** Send a GET request to `/random-user`.
+
+### 7. Capital City
+- **URL:** `/capital-city`
+- **Method:** GET
+- **Description:** Returns a random capital city.
+- **Usage:** Send a GET request to `/capital-city`.
+
+### 8. Ping
+- **URL:** `/_ping`
+- **Method:** GET
+- **Description:** Returns "OK" to indicate the server is running.
+- **Usage:** Send a GET request to `/_ping`.
+
 ## How to Run the Server
 
 1. Clone the repository:
@@ -28,25 +58,17 @@
    cd skillsettest
    ```
 
-2. Install the dependencies:
+2. Install Go:
+   Follow the instructions on the official Go website to install Go on your machine: https://golang.org/doc/install
+
+3. Build the server:
    ```
-   npm install
+   go build
    ```
 
-3. Create a `.env` file in the root directory and add your weather API key:
+4. Run the server:
    ```
-   WEATHER_API_KEY=your_api_key_here
-   ```
-
-   ## How to Get Your Weather API Key
-
-1. Sign up for an account on a weather API provider's website (e.g., https://www.weatherapi.com/).
-2. Follow the instructions to create an API key.
-3. Copy the API key and add it to the `.env` file as shown in step 3 of "How to Run the Server".
-
-4. Start the server:
-   ```
-   node endpoints.js
+   ./skillsettest
    ```
 
-5. The server will be running at `http://localhost:3000`. You can now access the endpoints using the URLs provided above.
+5. The server will be running at `http://localhost:8080`. You can now access the endpoints using the URLs provided above.
