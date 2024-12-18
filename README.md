@@ -44,3 +44,9 @@
    ```
 
 5. The server will be running at `http://localhost:3000`. You can now access the endpoints using the URLs provided above.
+
+## How to Get Your Weather API Key
+
+1. Sign up for an account on a weather API provider's website (e.g., https://www.weatherapi.com/).
+2. Follow the instructions to create an API key.
+3. Copy the API key and add it to the `.env` file as shown in step 3 of "How to Run the Server".
