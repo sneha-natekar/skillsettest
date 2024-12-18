@@ -72,3 +72,23 @@
    ```
 
 5. The server will be running at `http://localhost:8080`. You can now access the endpoints using the URLs provided above.
+
+## How to Test the Endpoints
+
+1. Ensure the server is running by following the steps in the "How to Run the Server" section.
+
+2. Use a tool like `curl`, Postman, or your web browser to send GET requests to the endpoints.
+
+3. Example using `curl`:
+   ```
+   curl http://localhost:8080/weather
+   curl http://localhost:8080/joke
+   curl http://localhost:8080/fact
+   curl http://localhost:8080/random-commit-message
+   curl http://localhost:8080/random-lorem-ipsum
+   curl http://localhost:8080/random-user
+   curl http://localhost:8080/capital-city
+   curl http://localhost:8080/_ping
+   ```
+
+4. Verify the responses to ensure they match the expected output as described in the "Endpoints" section.
